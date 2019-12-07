@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/textValorGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/textValorEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="" />
+</LinearLayout>
